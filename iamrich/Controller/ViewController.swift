@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
         //let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         let action = UIAlertAction(title: "OK", style: .default) { (action) in
-            print("PULSADO OK")
+            print("PULSADO OK!!")
         }
         controller.addAction(action)
         let action1 = UIAlertAction(title: "Borrar", style: .destructive) { _ in
